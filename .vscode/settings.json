@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 500,
+            "driver": "SQLite",
+            "name": "SHUBHAMSQLITE",
+            "database": "${workspaceFolder:capm_anubhav}//home/user/projects/capm_anubhav/"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "SHUBHAMSQLITE",
+            "database": "${workspaceFolder:capm_anubhav}/shubham.db"
+        }
+    ]
+}

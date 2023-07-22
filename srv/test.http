@@ -1,0 +1,16 @@
+GET http://http://localhost:4004/CatalogService/
+
+###
+GET http://localhost:4004/CatalogService/$metadata
+
+###
+GET http://localhost:4004/CatalogService/AddressSet?$top=2
+
+
+###
+PATCH  http://localhost:4004/CatalogService/AddressSet/74867AD200E41EDBA5D8B06885664052
+Content-Type : application/json;IEEE754Compatible=true
+
+{
+    "CITY" : "Pune"
+}
