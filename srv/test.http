@@ -14,3 +14,37 @@ Content-Type : application/json;IEEE754Compatible=true
 {
     "CITY" : "Pune"
 }
+
+
+### Create Product with Custom Handler
+
+POST http://localhost:4004/data/InsertProductSet
+Content-Type : application/json;IEEE754Compatible=true
+
+{
+    
+   "PRODUCT_ID":"HT-1000",
+   "TYPE_CODE":"PR",
+   "CATEGORY":"Test",
+   "DESCRIPTION":"Test",
+   "SUPPLIER_GUID_NODE_KEY":"74867AD200E41EDBA5D8B06885AB2052",
+   "TAX_TARIF_CODE":1,
+   "MEASURE_UNIT":"EA",
+   "WEIGHT_MEASURE":4.2,
+   "WEIGHT_UNIT":"KG",
+   "CURRENCY_CODE":"EUR",
+   "PRICE":956,
+   "WIDTH":30,
+   "DEPTH":18,
+   "HEIGHT":3
+}
+
+
+### Update the request
+PUT http://localhost:4004/data/UpdateProductSet/74867AD200E41EDBA5D8B06B26EC2052
+Content-Type : application/json;IEEE754Compatible=true
+
+{
+    "NODE_KEY" : "74867AD200E41EDBA5D8B06B26EB4052",
+    "DESCRIPTION" : "test1"
+}

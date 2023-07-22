@@ -27,3 +27,7 @@ Learn more at https://cap.cloud.sap/docs/get-started/.
 
 Token
 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
+
+New Git Token
+
+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
